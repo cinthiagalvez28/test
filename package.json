@@ -1,0 +1,15 @@
+{
+  "name": "worky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-check-in": "testcafe chrome ./pom/tests/CheckIn.test.js",
+    "test-check-out": "testcafe chrome ./pom/tests/CheckOut.test.js"
+  },
+  "author": "CG",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
