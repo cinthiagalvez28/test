@@ -11,9 +11,3 @@ test('As a standard user, I should be able to log in and check out when I provid
   await t.click(dashboardPage.seguroButton)
   await t.expect(dashboardPage.salidaRegistradaTitle.exists).ok()
 })
-
-test.only('As a standard user, I should be able to log in and check out when I provide valid credentials', async t =>{
-  await loginPage.submitLoginForm(CREDENTIALS.MY_USER.EMAIL, CREDENTIALS.MY_USER.PASSWORD)
-  await t.wait(10000)
-  await t.expect(dashboardPage.saludoTitle.exists).ok()
-})
