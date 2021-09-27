@@ -1,6 +1,6 @@
 # Test
-Check In (1 test scenario)
-Check Out (1 test scenario)
+- Check In (1 test scenario)
+- Check Out (1 test scenario)
 
 ## Installation
 Ensure that Node.js﻿ and npm﻿ are installed on your computer. Download the zip, unzipped the content, open your favorite IDE and open the project folder. Once inside, open a new terminal and type:
@@ -10,7 +10,6 @@ npm install dotenv
 ```
 Create a .env file in the root directory of your project. Add the following environment-specific variables:
 
-//URLS
 ```
 //URLS
 BASE_URL=https://www.example.com/iniciar-sesion
