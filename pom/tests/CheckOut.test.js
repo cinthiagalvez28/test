@@ -1,6 +1,6 @@
 import loginPage from '../pages/LoginPage.js'
 import dashboardPage from '../pages/DashboardPage.js'
-import { URLS, CREDENTIALS, PAGE_TITLES, MESSAGES } from '../data/Constants.js'
+import { URLS, CREDENTIALS } from '../data/Constants.js'
 
 fixture('Check In feature testing user')
   .page`${URLS.LOGIN_URL}`
