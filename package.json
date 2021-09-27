@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-check-in": "testcafe chrome ./pom/tests/CheckIn.test.js",
+    "test-check-in": "testcafe chrome:headless ./pom/tests/CheckIn.test.js",
     "test-check-out": "testcafe chrome:headless ./pom/tests/CheckOut.test.js"
   },
   "author": "CG",
