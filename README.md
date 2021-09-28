@@ -28,7 +28,7 @@ Now, you are set up to run the tests. Run in the terminal:
 ```
 npm run test-check-out
 ```
-This will initialize the test related to the Check Out scenario. If you want to run the check in scenario (it doesn't work yet), type:
+This will initialize the test related to the Check Out scenario. If you want to run the check in scenario, type:
 ```
 npm run test-check-in
 ```
