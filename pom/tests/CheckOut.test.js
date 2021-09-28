@@ -10,5 +10,5 @@ test('As a standard user, I should be able to log in and check out when I provid
   await t.click(dashboardPage.salidaButton)
   await t.click(dashboardPage.seguroButton)
   await t.wait(10000)
-  await t.expect(dashboardPage.salidaRegistradaTitle.innerText).eql('Salida registrada')
+  await t.expect(dashboardPage.registradoTitle.innerText).eql('Salida registrada')
 })
