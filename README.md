@@ -1,4 +1,4 @@
-# Test
+# Faker Check
 - Check In (1 test scenario)
 - Check Out (1 test scenario)
 
